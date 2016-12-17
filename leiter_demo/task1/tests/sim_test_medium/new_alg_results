@@ -1,0 +1,52 @@
+resize factor = 2
+queue size = 50
+
+search_res = "135 x 240" (switched dimensions)
+target1_res = "26 x 12"
+target2_res = "17 x 15"
+
+
+test_target1.jpg initialized. Now beginning initial search...
+
+0.0% done
+15.5% done
+31.1% done
+46.6% done
+62.1% done
+77.6% done
+93.2% done
+Initial search completed. Now beginning refined search...
+
+0.0% done
+74.3% done
+test_target1.jpg similarities:
+
+mm:     0.987000 at (62, 158)
+alt:    0.995000 at (62, 158)
+sp:     1.012000 at (62, 158)
+Drawing boxes and saving...
+Done!
+test_target2.jpg initialized. Now beginning initial search...
+
+0.0% done
+14.7% done
+29.5% done
+44.2% done
+59.0% done
+73.7% done
+88.5% done
+Initial search completed. Now beginning refined search...
+
+0.0% done
+72.7% done
+test_target2.jpg similarities:
+
+mm:     0.990000 at (77, 115)
+alt:    0.995000 at (77, 115)
+sp:     1.015000 at (77, 115)
+Drawing boxes and saving...
+Done!
+
+Notes: this found both images. 
+	-rf,qs = 3,50 found 2 but not 1
+	-rf,qs = 2,30 found 1 but not 2

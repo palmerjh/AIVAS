@@ -1,0 +1,72 @@
+rf,qs = 4,200
+runtime = < 2 minutes!!! (70 seconds for first target; ~30 seconds for second)
+
+target1.jpg initialized. Now beginning initial search...
+
+163300
+0.0% done
+6.12% done
+12.25% done
+18.37% done
+24.49% done
+30.62% done
+36.74% done
+42.87% done
+48.99% done
+55.11% done
+61.24% done
+67.36% done
+73.48% done
+79.61% done
+85.73% done
+91.86% done
+97.98% done
+Initial search completed. Now beginning refined search...
+
+31437
+0.0% done
+31.81% done
+63.62% done
+95.43% done
+target1.jpg similarities:
+
+mm:     0.433000 at (240, 1412)
+alt:    0.951000 at (240, 1412)
+sp:     0.595000 at (240, 1412)
+Drawing boxes and saving...
+Done!
+target2.jpg initialized. Now beginning initial search...
+
+173010
+0.0% done
+5.78% done
+11.56% done
+17.34% done
+23.12% done
+28.9% done
+34.68% done
+40.46% done
+46.24% done
+52.02% done
+57.8% done
+63.58% done
+69.36% done
+75.14% done
+80.92% done
+86.7% done
+92.48% done
+98.26% done
+Initial search completed. Now beginning refined search...
+
+31050
+0.0% done
+32.21% done
+64.41% done
+96.62% done
+target2.jpg similarities:
+
+mm:     0.438000 at (611, 784)
+alt:    0.926000 at (611, 784)
+sp:     0.601000 at (611, 784)
+Drawing boxes and saving...
+Done!

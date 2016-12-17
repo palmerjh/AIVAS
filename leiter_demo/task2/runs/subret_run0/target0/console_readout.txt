@@ -1,0 +1,241 @@
+Regions identified in target slice:...
+
+Primary region:
+	-Location in target slice: [ 14 116]
+	-Density: 0.160139999205
+
+Secondary region:
+	-Location in target slice: [1 2]
+	-Density: 0.159893409697
+
+Results:...
+
+
+Composite Results:
+
+	Choice 0:
+
+		Primary Region:
+			-Location: (240, 104)
+			-Rotation: wedge 93 out of 106, which corresponds to the
+			primary region being rotated 315.85 degrees anti-clockwise
+			-Similarity: 0.127083
+
+		Secondary Region:
+			-Location: (149, 34)
+			-Rotation: wedge 93 out of 106, which corresponds to the
+			secondary region being rotated 315.85 degrees anti-clockwise
+			-Similarity: 0.261572
+
+		Composite Similarity: 0.239157
+
+	Choice 1:
+
+		Primary Region:
+			-Location: (691, 64)
+			-Rotation: wedge 88 out of 106, which corresponds to the
+			primary region being rotated 298.87 degrees anti-clockwise
+			-Similarity: 0.275392
+
+		Secondary Region:
+			-Location: (584, 24)
+			-Rotation: wedge 88 out of 106, which corresponds to the
+			secondary region being rotated 298.87 degrees anti-clockwise
+			-Similarity: 0.510089
+
+		Composite Similarity: 0.470973
+
+	Choice 2:
+
+		Primary Region:
+			-Location: (571, 28)
+			-Rotation: wedge 33 out of 106, which corresponds to the
+			primary region being rotated 112.08 degrees anti-clockwise
+			-Similarity: 0.326528
+
+		Secondary Region:
+			-Location: (682, 56)
+			-Rotation: wedge 33 out of 106, which corresponds to the
+			secondary region being rotated 112.08 degrees anti-clockwise
+			-Similarity: 0.446522
+
+		Composite Similarity: 0.426523
+
+	Choice 3:
+
+		Primary Region:
+			-Location: (103, 167)
+			-Rotation: wedge 34 out of 106, which corresponds to the
+			primary region being rotated 115.47 degrees anti-clockwise
+			-Similarity: 0.402452
+
+		Secondary Region:
+			-Location: (213, 201)
+			-Rotation: wedge 34 out of 106, which corresponds to the
+			secondary region being rotated 115.47 degrees anti-clockwise
+			-Similarity: 0.408136
+
+		Composite Similarity: 0.407189
+
+	Choice 4:
+
+		Primary Region:
+			-Location: (600, 287)
+			-Rotation: wedge 74 out of 106, which corresponds to the
+			primary region being rotated 251.32 degrees anti-clockwise
+			-Similarity: 0.404460
+
+		Secondary Region:
+			-Location: (498, 339)
+			-Rotation: wedge 74 out of 106, which corresponds to the
+			secondary region being rotated 251.32 degrees anti-clockwise
+			-Similarity: 0.290867
+
+		Composite Similarity: 0.309799
+
+
+Primary Results:
+
+	Choice 0:
+
+		Primary Region:
+			-Location: (286, 478)
+			-Rotation: wedge 30 out of 106, which corresponds to the
+			primary region being rotated 101.89 degrees anti-clockwise
+			-Similarity: 0.532905
+
+		Secondary Region:
+			-Location: (401, 485)
+			-Rotation: wedge 30 out of 106, which corresponds to the
+			secondary region being rotated 101.89 degrees anti-clockwise
+			-Similarity: 0.118760
+
+	Choice 1:
+
+		Primary Region:
+			-Location: (362, 129)
+			-Rotation: wedge 79 out of 106, which corresponds to the
+			primary region being rotated 268.30 degrees anti-clockwise
+			-Similarity: 0.538865
+
+		Secondary Region:
+			-Location: (249, 149)
+			-Rotation: wedge 79 out of 106, which corresponds to the
+			secondary region being rotated 268.30 degrees anti-clockwise
+			-Similarity: 0.000029
+
+	Choice 2:
+
+		Primary Region:
+			-Location: (640, 250)
+			-Rotation: wedge 31 out of 106, which corresponds to the
+			primary region being rotated 105.28 degrees anti-clockwise
+			-Similarity: 0.528625
+
+		Secondary Region:
+			-Location: (754, 264)
+			-Rotation: wedge 31 out of 106, which corresponds to the
+			secondary region being rotated 105.28 degrees anti-clockwise
+			-Similarity: 0.013932
+
+	Choice 3:
+
+		Primary Region:
+			-Location: (58, 391)
+			-Rotation: wedge 81 out of 106, which corresponds to the
+			primary region being rotated 275.09 degrees anti-clockwise
+			-Similarity: 0.574896
+
+		Secondary Region:
+			-Location: (0, 0)
+			-Rotation: wedge 81 out of 106, which corresponds to the
+			secondary region being rotated 275.09 degrees anti-clockwise
+			-Similarity: 0.000000
+
+	Choice 4:
+
+		Primary Region:
+			-Location: (792, 591)
+			-Rotation: wedge 0 out of 106, which corresponds to the
+			primary region being rotated 0.00 degrees anti-clockwise
+			-Similarity: 0.550907
+
+		Secondary Region:
+			-Location: (776, 477)
+			-Rotation: wedge 0 out of 106, which corresponds to the
+			secondary region being rotated 0.00 degrees anti-clockwise
+			-Similarity: 0.018966
+
+
+Secondary Results:
+
+	Choice 0:
+
+		Primary Region:
+			-Location: (240, 104)
+			-Rotation: wedge 93 out of 106, which corresponds to the
+			primary region being rotated 315.85 degrees anti-clockwise
+			-Similarity: 0.127083
+
+		Secondary Region:
+			-Location: (149, 34)
+			-Rotation: wedge 93 out of 106, which corresponds to the
+			secondary region being rotated 315.85 degrees anti-clockwise
+			-Similarity: 0.261572
+
+	Choice 1:
+
+		Primary Region:
+			-Location: (691, 64)
+			-Rotation: wedge 88 out of 106, which corresponds to the
+			primary region being rotated 298.87 degrees anti-clockwise
+			-Similarity: 0.275392
+
+		Secondary Region:
+			-Location: (584, 24)
+			-Rotation: wedge 88 out of 106, which corresponds to the
+			secondary region being rotated 298.87 degrees anti-clockwise
+			-Similarity: 0.510089
+
+	Choice 2:
+
+		Primary Region:
+			-Location: (571, 28)
+			-Rotation: wedge 33 out of 106, which corresponds to the
+			primary region being rotated 112.08 degrees anti-clockwise
+			-Similarity: 0.326528
+
+		Secondary Region:
+			-Location: (682, 56)
+			-Rotation: wedge 33 out of 106, which corresponds to the
+			secondary region being rotated 112.08 degrees anti-clockwise
+			-Similarity: 0.446522
+
+	Choice 3:
+
+		Primary Region:
+			-Location: (103, 167)
+			-Rotation: wedge 34 out of 106, which corresponds to the
+			primary region being rotated 115.47 degrees anti-clockwise
+			-Similarity: 0.402452
+
+		Secondary Region:
+			-Location: (213, 201)
+			-Rotation: wedge 34 out of 106, which corresponds to the
+			secondary region being rotated 115.47 degrees anti-clockwise
+			-Similarity: 0.408136
+
+	Choice 4:
+
+		Primary Region:
+			-Location: (600, 287)
+			-Rotation: wedge 74 out of 106, which corresponds to the
+			primary region being rotated 251.32 degrees anti-clockwise
+			-Similarity: 0.404460
+
+		Secondary Region:
+			-Location: (498, 339)
+			-Rotation: wedge 74 out of 106, which corresponds to the
+			secondary region being rotated 251.32 degrees anti-clockwise
+			-Similarity: 0.290867
+

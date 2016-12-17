@@ -1,0 +1,70 @@
+**************************************************************************************************************
+Testing original retina construction (performed mapping work during each creation and had far less resolution)
+vs. new retina_subpixel construction (uses a closure that does all the mapping work in the creation of the Template and has much more resolution)
+**************************************************************************************************************
+
+import retina_subpixel as rs
+
+m = np.random.rand(70,70)
+
+t = rs.Template(70)
+
+ret = t.createRetina(m)
+
+%timeit ret = t.createRetina(m)
+1 loops, best of 3: 558 ms per loop
+
+import retina as r
+
+t_older = r.Template(70)
+
+ret_older = t_older.createRetina(m)
+
+%timeit ret_older = t_older.createRetina(m)
+1 loops, best of 3: 229 ms per loop
+
+ret.retina_size()
+Out[14]: (216, 56)
+
+t2 = rs.Template(70,hn=2)
+
+ret2 = t2.createRetina(m)
+
+%timeit ret2 = t2.createRetina(m)
+10 loops, best of 3: 141 ms per loop
+
+ret2.retina_size()
+Out[19]: (106, 28)
+
+ret_older.retina_size()
+Out[20]: (47, 12)
+
+************************************************************************************************************
+Testing retina_subpixel rotate (rotated 42 wedges) function vs. PIL.Image.rotate() (rotated an angle equivalent to 42 wedges)
+Two cases: size = 35 and 69
+************************************************************************************************************
+
+*****Size = 35
+
+%timeit ret2.rotate(42)
+10000 loops, best of 3: 27.3 µs per loop
+
+%timeit im_old.rotate(142.641509434)	# (42 / 106 * 360); nWedges = 106 for retina of size 35
+10000 loops, best of 3: 26.9 µs per loop
+
+
+******Size = 69
+
+angle = 70.985915493 	# (42 / 213 * 360); nWedges = 213 for retina of size 69
+
+%timeit im.rotate(angle)
+10000 loops, best of 3: 63.6 µs per loop
+
+im.show()
+
+%timeit ret2.rotate(42)
+10000 loops, best of 3: 29.7 µs per loop
+
+*******Conclusion:
+-roughly equal at size 35 but double the performance at size 69!
+

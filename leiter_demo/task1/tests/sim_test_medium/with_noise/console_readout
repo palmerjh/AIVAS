@@ -1,0 +1,20 @@
+test_target1.jpg initialized. now searching...
+
+test_target1.jpg similarities:
+
+sp: [0.7166981583584852, (39, 208)]		# ****** sp different from alt; however both wrong; sp @ actual (62,158) is 0.680
+mm: [0.5359000288933834, (39, 208)]
+alt: [0.768888888888889, (79, 44)]		# alt @ (39,208) is 0.760; alt @ actual (62,158) is 0.619
+
+Drawing boxes and saving...
+Done!
+test_target2.jpg initialized. now searching...
+
+test_target2.jpg similarities:
+
+sp: [0.8782041215075249, (77, 115)]		# found actual
+mm: [0.7555451054157848, (77, 115)]
+alt: [0.8411510058568883, (77, 115)]
+
+Drawing boxes and saving...
+Done!

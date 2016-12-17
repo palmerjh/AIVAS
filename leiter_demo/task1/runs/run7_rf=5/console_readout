@@ -1,0 +1,56 @@
+rf,qs = 5,1
+runtime = 56 seconds (for both) (variability in course search time)
+
+target1.jpg initialized. Now beginning initial search...
+
+104796
+0.0% done
+9.54% done
+19.08% done
+28.63% done
+38.17% done
+47.71% done
+57.25% done
+66.8% done
+76.34% done
+85.88% done
+95.42% done
+Initial search completed. Now beginning refined search...
+
+242
+0.0% done
+target1.jpg similarities:
+
+mm:     0.149000 at (314, 1036)
+alt:    0.931000 at (1106, 178)		**** matched with large empty white space
+sp:     0.255000 at (314, 1036)
+Drawing boxes and saving...
+Done!
+target2.jpg initialized. Now beginning initial search...
+
+110960
+0.0% done
+9.01% done
+18.02% done
+27.04% done
+36.05% done
+45.06% done
+54.07% done
+63.09% done
+72.1% done
+81.11% done
+90.12% done
+99.13% done
+Initial search completed. Now beginning refined search...
+
+363
+0.0% done
+target2.jpg similarities:
+
+mm:     0.438000 at (611, 784)
+alt:    0.926000 at (611, 784)	**** still correct!
+sp:     0.601000 at (611, 784)
+Drawing boxes and saving...
+Done!
+
+

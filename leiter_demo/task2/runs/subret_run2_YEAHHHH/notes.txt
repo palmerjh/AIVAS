@@ -1,0 +1,12 @@
+Notes:
+
+YEAHHHH SUCCESS!!!
+
+-however, time elapsed = 5139.306000 seconds (for both targets)
+	-vast majority of time spent in initial density delta search
+	-300 to 600 seconds in rotational search, rest in density delta search
+-ideas:
+	-only do a handful of rings (top 5 densest? --> factor of 6 speedup from using all 28 rings + blindspot) for refined density 
+	-try using sum-product which more so prefers matching blackness than matching whiteness
+	-needed 1400 in queue to get actual into all choice-wise queues (look at debug_target0)
+		-new heuristic that is more admissible and differentiating?

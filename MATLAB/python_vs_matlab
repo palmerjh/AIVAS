@@ -1,0 +1,55 @@
+115 x 142; running each algorithm 10000 times
+
+matlab (slow iteration): 34 seconds
+matlab (proper use of matrices) 4.4 seconds
+matlab (with GPU): 80 seconds
+
+python (slow iteration): 188-207 seconds
+python (using Numpy correctly): 9 seconds ***another time: 5 seconds!!!
+python (using Numpy correctly and Fortran): 13.5 seconds
+
+***bts_meta using Numpy correctly: 70 seconds for first target; ~25 seconds for second target
+
+*****actually using Numpy correctly:*****
+
+c = np.random.rand(2000,2000)
+
+d = np.random.rand(2000,2000)
+
+import similarity as sim
+
+import similarity2 as sim2
+
+%timeit sim.sumProd(c,d)
+1 loops, best of 3: 5.08 s per loop
+
+%timeit sim2.sumProd(c,d)
+1 loops, best of 3: 108 ms per loop
+
+*****EXPERIMENT WITH BOTH FORTRAN*****
+
+c = np.asfortranarray(c)
+
+d = np.asfortranarray(d)
+
+%timeit sim.sumProd(c,d)
+1 loops, best of 3: 7.36 s per loop
+
+%timeit sim2.sumProd(c,d)
+10 loops, best of 3: 76.9 ms per loop ***another trial yielded 95 ms per loop
+
+*****EXPERIMENT WITH ONE FORTRAN*****
+
+a = np.asfortranarray(np.random.rand(2000,2000))
+
+b = np.random.rand(2000,2000)
+
+%timeit sim2.sumProd(a,b)
+1 loops, best of 3: 346 ms per loop
+
+%timeit sim2.sumProd(b,a)
+1 loops, best of 3: 359 ms per loop
+
+CONCLUSION:
+-Fortran arrays have slightly more efficient operations but take a long time to create such that they take longer
+

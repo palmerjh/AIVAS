@@ -1,0 +1,69 @@
+rf,qs = 4,100
+runtime = 24 seconds (not much better than the 28 for all three; expected 3 times faster)
+
+***Only alt was ran. Huge finding: wrong answer for target 2 when mm/sp is not used for coarse search!!!
+
+target1.jpg initialized. Now beginning initial search...
+
+163300
+0.0% done
+6.12% done
+12.25% done
+18.37% done
+24.49% done
+30.62% done
+36.74% done
+42.87% done
+48.99% done
+55.11% done
+61.24% done
+67.36% done
+73.48% done
+79.61% done
+85.73% done
+91.86% done
+97.98% done
+Initial search completed. Now beginning refined search...
+
+7911
+0.0% done
+target1.jpg similarities:
+
+mm:     0.000000 at (1415, 1796)
+alt:    0.951000 at (240, 1412)
+sp:     0.000000 at (1415, 1796)
+Drawing boxes and saving...
+Done!
+target2.jpg initialized. Now beginning initial search...
+
+173010
+0.0% done
+5.78% done
+11.56% done
+17.34% done
+23.12% done
+28.9% done
+34.68% done
+40.46% done
+46.24% done
+52.02% done
+57.8% done
+63.58% done
+69.36% done
+75.14% done
+80.92% done
+86.7% done
+92.48% done
+98.26% done
+Initial search completed. Now beginning refined search...
+
+8091
+0.0% done
+target2.jpg similarities:
+
+mm:     0.000000 at (1453, 1248)
+alt:    0.917000 at (1110, 917) ***********WRONG!!!
+sp:     0.000000 at (1453, 1248)
+Drawing boxes and saving...
+Done!
+

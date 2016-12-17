@@ -1,0 +1,12 @@
+Regions identified in target slice:...
+
+Primary region:
+	-Location in target slice: [  0 111]
+	-Density: 0.131437589202
+
+Secondary region:
+	-Location in target slice: [ 0 11]
+	-Density: 0.124350107657
+
+Results:...
+

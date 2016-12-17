@@ -1,0 +1,14 @@
+-if target0 was in choice4, debug_target0.txt shows that even with a queue size of 1400, the best of the real locations would not be included:
+	-best_real has delta = 0.963 and simple addition dictates that in Choice 4, there are 1517 locations with delta >= 0.964
+
+	-choice4 is relatively more noisy (in terms of multiplicity of components similar to those identified in the target0 slice) so this makes sense
+
+	-how to determine queue size that is robust and works for (practically) all cases?
+		-could just arbitrarily go higher: right now rotational search is small fraction of density search in terms of time
+			-but when we improve speed of density search, then increasing rotational search time will be more pronounced
+
+-possibility: try sum-product for density comparison instead of alternate?
+
+-target1 real location is very high up in queue (index=8)
+	-average delta is higher than for target0
+		-target1's density is slightly closer to average density than target0's density

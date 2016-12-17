@@ -1,0 +1,20 @@
+test_target1.jpg initialized. now searching...
+
+test_target1.jpg similarities:
+
+sp: [1.011697300630296, (62, 158)]
+mm: [0.9872877244056285, (62, 158)]
+alt: [0.9951073762838469, (62, 158)]
+
+Drawing boxes and saving...
+Done!
+test_target2.jpg initialized. now searching...
+
+test_target2.jpg similarities:
+
+sp: [1.015374209585719, (77, 115)]
+mm: [0.9900318569520091, (77, 115)]
+alt: [0.9950598421186656, (77, 115)]
+
+Drawing boxes and saving...
+Done!

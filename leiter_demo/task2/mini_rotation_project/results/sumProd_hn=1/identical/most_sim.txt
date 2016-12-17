@@ -1,0 +1,3 @@
+Greatest similarity: 0.950059
+Rotation: wedge 97 out of 389, which corresponds to the
+primary region being rotated 89.77 degrees anti-clockwise

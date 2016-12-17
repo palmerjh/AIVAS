@@ -1,0 +1,180 @@
+**************NOTE****************
+Densest square was calculated using following density formula:
+	-given pix n and wts w (from template), density = average of np.average(1-n,weights=w) and np.average(n,weights=1-w)
+	-idea: prioritize whiteness in middle and blackness on outside
+		-why: response to previous results where anomalous black spots (i.e. errors in tracing resulted in thicker lines than the original) 
+		in target corresponded to densest area; when such an anomalous area is used as the target, it was far from matching with the thinner-lined original
+
+
+C:\Users\palmerjh\Documents\AIVAS\leiter_demo\task2\targets\target_0.jpg:
+
+Identifying densest sqaure...
+(0.60270747353850629, (752, 328))
+...DONE!
+
+Starting density search...
+2438233
+0.0% done
+2.05% done
+4.1% done
+6.15% done
+8.2% done
+10.25% done
+12.3% done
+14.35% done
+16.41% done
+18.46% done
+20.51% done
+22.56% done
+24.61% done
+26.66% done
+28.71% done
+30.76% done
+32.81% done
+34.86% done
+36.91% done
+38.96% done
+41.01% done
+43.06% done
+45.11% done
+47.17% done
+49.22% done
+51.27% done
+53.32% done
+55.37% done
+57.42% done
+59.47% done
+61.52% done
+63.57% done
+65.62% done
+67.67% done
+69.72% done
+71.77% done
+73.82% done
+75.87% done
+77.93% done
+79.98% done
+82.03% done
+84.08% done
+86.13% done
+88.18% done
+90.23% done
+92.28% done
+94.33% done
+96.38% done
+98.43% done
+...DONE!
+
+Starting rotational search...
+0.0% done
+5.0% done
+10.0% done
+15.0% done
+20.0% done
+25.0% done
+30.0% done
+35.0% done
+40.0% done
+45.0% done
+50.0% done
+55.0% done
+60.0% done
+65.0% done
+70.0% done
+75.0% done
+80.0% done
+85.0% done
+90.0% done
+95.0% done
+...DONE!
+
+target_0.jpg densest at pixel (752, 328) with density 0.602707:
+        -Location: choice 2 (AKA choice_2.jpg) at pixel (573, 303)
+        -Rotation: wedge 7 out of 25, which corresponds to the target being rotated 100.80 degrees anti-clockwise
+        -Similarity: 0.650084
+C:\Users\palmerjh\Documents\AIVAS\leiter_demo\task2\targets\target_1.jpg:
+
+Identifying densest sqaure...
+(0.57752038667388816, (8, 225))
+...DONE!
+
+Starting density search...
+2438233
+0.0% done
+2.05% done
+4.1% done
+6.15% done
+8.2% done
+10.25% done
+12.3% done
+14.35% done
+16.41% done
+18.46% done
+20.51% done
+22.56% done
+24.61% done
+26.66% done
+28.71% done
+30.76% done
+32.81% done
+34.86% done
+36.91% done
+38.96% done
+41.01% done
+43.06% done
+45.11% done
+47.17% done
+49.22% done
+51.27% done
+53.32% done
+55.37% done
+57.42% done
+59.47% done
+61.52% done
+63.57% done
+65.62% done
+67.67% done
+69.72% done
+71.77% done
+73.82% done
+75.87% done
+77.93% done
+79.98% done
+82.03% done
+84.08% done
+86.13% done
+88.18% done
+90.23% done
+92.28% done
+94.33% done
+96.38% done
+98.43% done
+...DONE!
+
+Starting rotational search...
+0.0% done
+5.0% done
+10.0% done
+15.0% done
+20.0% done
+25.0% done
+30.0% done
+35.0% done
+40.0% done
+45.0% done
+50.0% done
+55.0% done
+60.0% done
+65.0% done
+70.0% done
+75.0% done
+80.0% done
+85.0% done
+90.0% done
+95.0% done
+...DONE!
+
+target_1.jpg densest at pixel (8, 225) with density 0.577520:
+        -Location: choice 3 (AKA choice_3.jpg) at pixel (54, 464)
+        -Rotation: wedge 11 out of 25, which corresponds to the target being rotated 158.40 degrees anti-clockwise
+        -Similarity: 0.558014

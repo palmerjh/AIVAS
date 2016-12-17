@@ -1,0 +1,65 @@
+Regions identified in target slice:...
+
+Primary region:
+	-Location in target slice: [  0 111]
+	-Density: 0.131437589202
+
+Secondary region:
+	-Location in target slice: [ 0 11]
+	-Density: 0.124350107657
+
+Results:...
+
+
+Composite Results:
+
+	Choice 0:
+
+		Primary Region:
+			-Location: (210, 185)
+			-Rotation: wedge 12 out of 34, which corresponds to the
+			primary region being rotated 127.06 degrees anti-clockwise
+			-Similarity: 0.122424
+
+		Secondary Region:
+			-Location: (295, 238)
+			-Rotation: wedge 12 out of 34, which corresponds to the
+			secondary region being rotated 127.06 degrees anti-clockwise
+			-Similarity: 0.105600
+
+		Composite Similarity: 0.108404
+
+
+Primary Results:
+
+	Choice 0:
+
+		Primary Region:
+			-Location: (300, 279)
+			-Rotation: wedge 25 out of 34, which corresponds to the
+			primary region being rotated 264.71 degrees anti-clockwise
+			-Similarity: 0.276323
+
+		Secondary Region:
+			-Location: (202, 297)
+			-Rotation: wedge 25 out of 34, which corresponds to the
+			secondary region being rotated 264.71 degrees anti-clockwise
+			-Similarity: 0.001943
+
+
+Secondary Results:
+
+	Choice 0:
+
+		Primary Region:
+			-Location: (210, 185)
+			-Rotation: wedge 12 out of 34, which corresponds to the
+			primary region being rotated 127.06 degrees anti-clockwise
+			-Similarity: 0.122424
+
+		Secondary Region:
+			-Location: (295, 238)
+			-Rotation: wedge 12 out of 34, which corresponds to the
+			secondary region being rotated 127.06 degrees anti-clockwise
+			-Similarity: 0.105600
+

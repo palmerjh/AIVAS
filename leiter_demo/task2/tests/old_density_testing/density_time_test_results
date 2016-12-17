@@ -1,0 +1,85 @@
+****NOTES****
+the following tests the time required to find the "density" in four ways
+
+#1: normal mean
+#2: normal average (same as #1)
+#3: average with weights
+#4: mean over pixels only within radius of half the size of the square's length (code below)
+
+
+import numpy as np
+
+n = np.random.rand(35,35)
+
+wts = np.random.rand(35,35)
+
+np.average(n,weights=wts)
+Out[11]: 0.49739262730513917
+
+******************************************************************
+#1
+%timeit np.mean(n)
+10000 loops, best of 3: 35.7 µs per loop
+******************************************************************
+#2
+%timeit np.average(n)
+10000 loops, best of 3: 38 µs per loop
+******************************************************************
+#3
+%timeit np.average(n,weights=wts)
+10000 loops, best of 3: 34.4 µs per loop
+******************************************************************
+
+import os
+
+os.chdir(r'C:\Users\palmerjh\Documents\AIVAS\leiter_demo\task2')
+
+import density_time_test as dtt
+
+dtt.density(n)
+Out[18]: 0.50450701332408565
+
+******************************************************************
+#4
+%timeit dtt.density(n)
+10 loops, best of 3: 22.5 ms per loops 		# nearly 1000 times longer
+******************************************************************
+
+******************************************************************
+* CODE for #4													 *
+******************************************************************
+
+def density(pix):
+	x,y = pix.shape
+	center = np.array([(x-1)/2.0,(y-1)/2.0])
+
+	radius = min(x,y) / 2.0
+
+	density = 0.0
+	counter = 0
+	for sx in xrange(x):
+		for sy in xrange(y):
+			point = np.array([sx,sy])
+			if dist(point,center) < radius:
+				density += pix[sx,sy]
+				counter += 1
+
+	print counter
+
+	return density / counter
+
+******************************************************************
+
+IDEA:
+
+-set wts = {1 if pixel within radius, 0 else}
+-perhaps bias density such that blackness in center is preferable
+
+-results:
+
+%timeit np.average(n,weights=wts)			# wts = {1 if pixel within radius, 0 else}
+10000 loops, best of 3: 53.3 µs per loop
+
+%timeit np.average(n)
+10000 loops, best of 3: 41.1 µs per loop
+
